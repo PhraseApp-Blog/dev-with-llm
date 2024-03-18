@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Euphoric Nights",
+    "artist": "DJ Pulse",
+    "coverUrl": "https://picsum.photos/id/100/300/300",
+    "releaseDate": "2024-02-15"
+  },
+  {
+    "id": 2,
+    "title": "Bass in the Shadows",
+    "artist": "Bass Master",
+    "coverUrl": "https://picsum.photos/id/101/300/300",
+    "releaseDate": "2024-03-01"
+  },
+  {
+    "id": 3,
+    "title": "Synth Waves",
+    "artist": "Synth Kid",
+    "coverUrl": "https://picsum.photos/id/102/300/300",
+    "releaseDate": "2024-01-20"
+  },
+  {
+    "id": 4,
+    "title": "Electro Pulse",
+    "artist": "Pulse Driver",
+    "coverUrl": "https://picsum.photos/id/103/300/300",
+    "releaseDate": "2024-05-15"
+  },
+  {
+    "id": 5,
+    "title": "Rhythm of the Night",
+    "artist": "Night Walker",
+    "coverUrl": "https://picsum.photos/id/104/300/300",
+    "releaseDate": "2024-06-01"
+  },
+  {
+    "id": 6,
+    "title": "Sound of the Future",
+    "artist": "Future Sound",
+    "coverUrl": "https://picsum.photos/id/120/300/300",
+    "releaseDate": "2024-07-01"
+  },
+  {
+    "id": 7,
+    "title": "Bass Drops",
+    "artist": "Drop Master",
+    "coverUrl": "https://picsum.photos/id/106/300/300",
+    "releaseDate": "2024-08-01"
+  },
+  {
+    "id": 8,
+    "title": "Synth Echoes",
+    "artist": "Echo Kid",
+    "coverUrl": "https://picsum.photos/id/107/300/300",
+    "releaseDate": "2024-09-01"
+  },
+  {
+    "id": 9,
+    "title": "Digital Dreams",
+    "artist": "Dream Weaver",
+    "coverUrl": "https://picsum.photos/id/108/300/300",
+    "releaseDate": "2024-10-01"
+  }
+]
