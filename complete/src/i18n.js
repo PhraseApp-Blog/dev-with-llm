@@ -12,6 +12,7 @@ i18n
     interpolation: {
       escapeValue: false, // Not needed for React as it escapes by default
     },
+    debug: true,
   });
 
 export default i18n;

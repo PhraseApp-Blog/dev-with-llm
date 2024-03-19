@@ -1,4 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import HotAlbums from "./pages/HotAlbums";
 import TrendingPosts from "./pages/TrendingPosts";
@@ -12,8 +16,14 @@ const App = () => {
         <main className="p-4">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/hot-albums" element={<HotAlbums />} />
-            <Route path="/trending-posts" element={<TrendingPosts />} />
+            <Route
+              path="/hot-albums"
+              element={<HotAlbums />}
+            />
+            <Route
+              path="/trending-posts"
+              element={<TrendingPosts />}
+            />
           </Routes>
         </main>
       </div>

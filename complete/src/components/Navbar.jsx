@@ -16,7 +16,7 @@ const Navbar = () => {
               to="/"
               className="text-gray-300 hover:text-white"
             >
-              Home
+              {t("nav.home")}
             </Link>
           </li>
           <li>
@@ -24,7 +24,7 @@ const Navbar = () => {
               to="/hot-albums"
               className="text-gray-300 hover:text-white"
             >
-              Hot Albums
+              {t("nav.hotAlbums")}
             </Link>
           </li>
           <li>
@@ -32,7 +32,7 @@ const Navbar = () => {
               to="/trending-posts"
               className="text-gray-300 hover:text-white"
             >
-              Trending Posts
+              {t("nav.trendingPosts")}
             </Link>
           </li>
         </ul>
