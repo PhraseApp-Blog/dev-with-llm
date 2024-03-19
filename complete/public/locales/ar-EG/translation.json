@@ -8,7 +8,19 @@
   },
   "home": {
     "hotAlbumsTitle": "الألبومات الساخنة",
-    "trendingPostsTitle": "المنشورات الرائجة"
+    "trendingPostsTitle": "المنشورات الرائجة",
+    "viewAllAlbums_zero": "لا توجد ألبومات",
+    "viewAllAlbums_one": "عرض البوم واحد",
+    "viewAllAlbums_two": "عرض البومان",
+    "viewAllAlbums_few": "عرض {{count}} ألبومات",
+    "viewAllAlbums_many": "عرض {{count}} ألبوم",
+    "viewAllAlbums_other": "عرض {{count}} ألبوم",
+    "viewAllPosts_zero": "لا يوجد منشورات",
+    "viewAllPosts_one": "عرض منشور واحد",
+    "viewAllPosts_two": "عرض منشورين",
+    "viewAllPosts_few": "عرض {{count}} منشورات",
+    "viewAllPosts_many": "عرض {{count}} منشور",
+    "viewAllPosts_other": "عرض {{count}} منشور"
   },
   "hotAlbums": {
     "title": "الألبومات الساخنة"

@@ -40,7 +40,7 @@ const HomePage = () => {
             to="/hot-albums"
             className="bg-gray-200 hover:bg-gray-100 text-slate-900 font-bold py-2 px-4 rounded"
           >
-            View all 9 albums
+            {t("home.viewAllAlbums", { count: 9 })}
           </Link>
         </div>
       </section>
@@ -58,7 +58,7 @@ const HomePage = () => {
             to="/trending-posts"
             className="bg-gray-200 hover:bg-gray-100 text-slate-900 font-bold py-2 px-4 rounded"
           >
-            View all 9 posts
+            {t("home.viewAllPosts", { count: 9 })}
           </Link>
         </div>
       </section>

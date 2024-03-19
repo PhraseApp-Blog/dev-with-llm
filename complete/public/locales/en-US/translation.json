@@ -8,7 +8,11 @@
   },
   "home": {
     "hotAlbumsTitle": "Hot Albums",
-    "trendingPostsTitle": "Trending Posts"
+    "trendingPostsTitle": "Trending Posts",
+    "viewAllAlbums": "View {{count}} album",
+    "viewAllAlbums_plural": "View {{count}} albums",
+    "viewAllPosts": "View {{count}} post",
+    "viewAllPosts_plural": "View {{count}} posts"
   },
   "hotAlbums": {
     "title": "Hot Albums"
