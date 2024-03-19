@@ -3,8 +3,11 @@ import AlbumCard from "../components/AlbumCard";
 import PostTeaser from "../components/PostTeaser";
 import useHotAlbums from "../hooks/use-hot-albums";
 import useTrendingPosts from "../hooks/use-trending-posts";
+import { useTranslation } from "react-i18next";
 
 const HomePage = () => {
+  const { t } = useTranslation();
+
   const {
     albums,
     loading: loadingAlbums,
@@ -16,13 +19,17 @@ const HomePage = () => {
     error: errorPosts,
   } = useTrendingPosts(4);
 
-  if (loadingAlbums || loadingPosts) return <div>Loading...</div>;
-  if (errorAlbums || errorPosts) return <div>Error loading data</div>;
+  if (loadingAlbums || loadingPosts)
+    return <div>{t("loading")}</div>;
+  if (errorAlbums || errorPosts)
+    return <div>Error loading data</div>;
 
   return (
     <div className="space-y-8">
       <section>
-        <h2 className="text-2xl font-bold text-white mb-4">Hot Albums</h2>
+        <h2 className="text-2xl font-bold text-white mb-4">
+          {t("home.hotAlbumsTitle")}
+        </h2>
         <div className="grid grid-cols-3 gap-4">
           {albums.map((album) => (
             <AlbumCard key={album.id} album={album} />
@@ -38,7 +45,9 @@ const HomePage = () => {
         </div>
       </section>
       <section>
-        <h2 className="text-2xl font-bold text-white mb-4">Trending Posts</h2>
+        <h2 className="text-2xl font-bold text-white mb-4">
+          {t("home.trendingPostsTitle")}
+        </h2>
         <div className="grid grid-cols-2 gap-4">
           {posts.map((post) => (
             <PostTeaser key={post.id} post={post} />

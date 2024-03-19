@@ -10,7 +10,7 @@ i18n
   .init({
     fallbackLng: "en-US",
     interpolation: {
-      escapeValue: false, // Not needed for React as it escapes by default
+      escapeValue: false,
     },
     debug: true,
   });

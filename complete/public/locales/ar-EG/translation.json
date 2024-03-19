@@ -1,8 +1,19 @@
 {
   "appName": "ميجرانت تاكو",
+  "loading": "يتم التحميل...",
   "nav": {
     "home": "الرئيسية",
     "hotAlbums": "الألبومات الساخنة",
     "trendingPosts": "المنشورات الرائجة"
+  },
+  "home": {
+    "hotAlbumsTitle": "الألبومات الساخنة",
+    "trendingPostsTitle": "المنشورات الرائجة"
+  },
+  "hotAlbums": {
+    "title": "الألبومات الساخنة"
+  },
+  "trendingPosts": {
+    "title": "المنشورات الرائجة"
   }
 }

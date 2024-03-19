@@ -1,8 +1,19 @@
 {
   "appName": "Migrant Taco",
+  "loading": "Loading...",
   "nav": {
     "home": "Home",
     "hotAlbums": "Hot Albums",
     "trendingPosts": "Trending Posts"
+  },
+  "home": {
+    "hotAlbumsTitle": "Hot Albums",
+    "trendingPostsTitle": "Trending Posts"
+  },
+  "hotAlbums": {
+    "title": "Hot Albums"
+  },
+  "trendingPosts": {
+    "title": "Trending Posts"
   }
 }
