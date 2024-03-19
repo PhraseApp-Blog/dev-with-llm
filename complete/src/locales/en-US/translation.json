@@ -1,0 +1,8 @@
+{
+  "appName": "Migrant Taco",
+  "nav": {
+    "home": "Home",
+    "hotAlbums": "Hot Albums",
+    "trendingPosts": "Trending Posts"
+  }
+}
