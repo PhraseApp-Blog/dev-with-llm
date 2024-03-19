@@ -7,6 +7,8 @@ import HomePage from "./pages/HomePage";
 import HotAlbums from "./pages/HotAlbums";
 import TrendingPosts from "./pages/TrendingPosts";
 import Navbar from "./components/Navbar";
+import LocaleWrapper from "./components/LocaleWrapper";
+import RootRedirect from "./components/RootRedirect";
 
 const App = () => {
   return (
@@ -15,15 +17,22 @@ const App = () => {
         <Navbar />
         <main className="p-4">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<RootRedirect />} />
+
             <Route
-              path="/hot-albums"
-              element={<HotAlbums />}
-            />
-            <Route
-              path="/trending-posts"
-              element={<TrendingPosts />}
-            />
+              path="/:lang"
+              element={<LocaleWrapper />}
+            >
+              <Route index element={<HomePage />} />
+              <Route
+                path="hot-albums"
+                element={<HotAlbums />}
+              />
+              <Route
+                path="trending-posts"
+                element={<TrendingPosts />}
+              />
+            </Route>
           </Routes>
         </main>
       </div>

@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
 import AlbumCard from "../components/AlbumCard";
 import PostTeaser from "../components/PostTeaser";
 import useHotAlbums from "../hooks/use-hot-albums";
 import useTrendingPosts from "../hooks/use-trending-posts";
 import { useTranslation } from "react-i18next";
+import LocalizedLink from "../components/LocalizedLink";
 
 const HomePage = () => {
   const { t } = useTranslation();
@@ -36,12 +36,12 @@ const HomePage = () => {
           ))}
         </div>
         <div className="text-right mt-4">
-          <Link
+          <LocalizedLink
             to="/hot-albums"
             className="bg-gray-200 hover:bg-gray-100 text-slate-900 font-bold py-2 px-4 rounded"
           >
             {t("home.viewAllAlbums", { count: 9 })}
-          </Link>
+          </LocalizedLink>
         </div>
       </section>
       <section>
@@ -54,12 +54,12 @@ const HomePage = () => {
           ))}
         </div>
         <div className="text-right mt-4">
-          <Link
+          <LocalizedLink
             to="/trending-posts"
             className="bg-gray-200 hover:bg-gray-100 text-slate-900 font-bold py-2 px-4 rounded"
           >
             {t("home.viewAllPosts", { count: 9 })}
-          </Link>
+          </LocalizedLink>
         </div>
       </section>
     </div>

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 import LocaleSwitcher from "./LocaleSwitcher";
+import LocalizedLink from "./LocalizedLink";
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -13,28 +13,28 @@ const Navbar = () => {
         </h1>
         <ul className="flex space-x-4">
           <li>
-            <Link
+            <LocalizedLink
               to="/"
               className="text-gray-300 hover:text-white"
             >
               {t("nav.home")}
-            </Link>
+            </LocalizedLink>
           </li>
           <li>
-            <Link
+            <LocalizedLink
               to="/hot-albums"
               className="text-gray-300 hover:text-white"
             >
               {t("nav.hotAlbums")}
-            </Link>
+            </LocalizedLink>
           </li>
           <li>
-            <Link
+            <LocalizedLink
               to="/trending-posts"
               className="text-gray-300 hover:text-white"
             >
               {t("nav.trendingPosts")}
-            </Link>
+            </LocalizedLink>
           </li>
           <li>
             <LocaleSwitcher />
