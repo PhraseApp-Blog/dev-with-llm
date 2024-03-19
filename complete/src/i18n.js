@@ -8,7 +8,11 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: "en-US",
+    fallbackLng: (code) => {
+      if (code.startsWith("en")) return ["en-US"];
+      if (code.startsWith("ar")) return ["ar-EG"];
+      return ["en-US"];
+    },
     interpolation: {
       escapeValue: false,
     },

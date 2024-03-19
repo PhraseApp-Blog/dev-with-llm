@@ -11,7 +11,7 @@ const LocaleSwitcher = () => {
     <div className="block -mt-1">
       <select
         onChange={changeLanguage}
-        value={i18n.language}
+        value={i18n.resolvedLanguage}
         className="bg-gray-200 text-slate-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 px-4 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
       >
         <option value="en-US">English</option>
