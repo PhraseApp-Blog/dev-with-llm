@@ -9,10 +9,10 @@
   "home": {
     "hotAlbumsTitle": "Hot Albums",
     "trendingPostsTitle": "Trending Posts",
-    "viewAllAlbums": "View {{count}} album",
-    "viewAllAlbums_plural": "View {{count}} albums",
-    "viewAllPosts": "View {{count}} post",
-    "viewAllPosts_plural": "View {{count}} posts"
+    "viewAllAlbums_one": "View {{count}} album",
+    "viewAllAlbums_other": "View {{count}} albums",
+    "viewAllPosts_one": "View {{count}} post",
+    "viewAllPosts_other": "View {{count}} posts"
   },
   "hotAlbums": {
     "title": "Hot Albums"
