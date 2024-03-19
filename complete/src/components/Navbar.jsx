@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -34,6 +35,9 @@ const Navbar = () => {
             >
               {t("nav.trendingPosts")}
             </Link>
+          </li>
+          <li>
+            <LocaleSwitcher />
           </li>
         </ul>
       </div>
