@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "ليالي النشوة",
+    "artist": "دي جي بولس",
+    "coverUrl": "https://picsum.photos/id/100/300/300",
+    "releaseDate": "2024-02-15"
+  },
+  {
+    "id": 2,
+    "title": "الباس في الظلال",
+    "artist": "ماستر الباس",
+    "coverUrl": "https://picsum.photos/id/101/300/300",
+    "releaseDate": "2024-03-01"
+  },
+  {
+    "id": 3,
+    "title": "أمواج السينث",
+    "artist": "طفل السينث",
+    "coverUrl": "https://picsum.photos/id/102/300/300",
+    "releaseDate": "2024-01-20"
+  },
+  {
+    "id": 4,
+    "title": "نبض الإلكترو",
+    "artist": "محرك النبض",
+    "coverUrl": "https://picsum.photos/id/103/300/300",
+    "releaseDate": "2024-05-15"
+  },
+  {
+    "id": 5,
+    "title": "إيقاع الليل",
+    "artist": "متجول الليل",
+    "coverUrl": "https://picsum.photos/id/104/300/300",
+    "releaseDate": "2024-06-01"
+  },
+  {
+    "id": 6,
+    "title": "صوت المستقبل",
+    "artist": "صوت المستقبل",
+    "coverUrl": "https://picsum.photos/id/120/300/300",
+    "releaseDate": "2024-07-01"
+  },
+  {
+    "id": 7,
+    "title": "قطرات الباس",
+    "artist": "ماستر القطرة",
+    "coverUrl": "https://picsum.photos/id/106/300/300",
+    "releaseDate": "2024-08-01"
+  },
+  {
+    "id": 8,
+    "title": "صدى السينث",
+    "artist": "طفل الصدى",
+    "coverUrl": "https://picsum.photos/id/107/300/300",
+    "releaseDate": "2024-09-01"
+  },
+  {
+    "id": 9,
+    "title": "أحلام رقمية",
+    "artist": "نساج الأحلام",
+    "coverUrl": "https://picsum.photos/id/108/300/300",
+    "releaseDate": "2024-10-01"
+  }
+]
