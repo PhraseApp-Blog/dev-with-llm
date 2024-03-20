@@ -11,7 +11,7 @@ const Navbar = () => {
         <h1 className="text-xl font-bold text-white">
           {t("appName")}
         </h1>
-        <ul className="flex space-x-4">
+        <ul className="flex gap-4">
           <li>
             <LocalizedLink
               to="/"
