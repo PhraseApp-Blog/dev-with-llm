@@ -9,15 +9,18 @@
   "home": {
     "hotAlbumsTitle": "Hot Albums",
     "trendingPostsTitle": "Trending Posts",
-    "viewAllAlbums_one": "View {{count}} album",
-    "viewAllAlbums_other": "View {{count}} albums",
-    "viewAllPosts_one": "View {{count}} post",
-    "viewAllPosts_other": "View {{count}} posts"
+    "viewAllAlbums_one": "View {{count, number}} album",
+    "viewAllAlbums_other": "View {{count, number}} albums",
+    "viewAllPosts_one": "View {{count, number}} post",
+    "viewAllPosts_other": "View {{count, number}} posts"
   },
   "hotAlbums": {
     "title": "Hot Albums"
   },
   "trendingPosts": {
     "title": "Trending Posts"
+  },
+  "postTeaser": {
+    "authorAndDate": "By {{author}} on {{publishedAt, datetime}}"
   }
 }

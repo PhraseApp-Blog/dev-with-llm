@@ -16,7 +16,7 @@ const HotAlbums = () => {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {albums.map((album) => (
-          <AlbumCard key={album.id} album={album} /> // Use AlbumCard for each album
+          <AlbumCard key={album.id} album={album} />
         ))}
       </div>
     </div>

@@ -12,20 +12,23 @@
     "viewAllAlbums_zero": "لا توجد ألبومات",
     "viewAllAlbums_one": "عرض البوم واحد",
     "viewAllAlbums_two": "عرض البومان",
-    "viewAllAlbums_few": "عرض {{count}} ألبومات",
-    "viewAllAlbums_many": "عرض {{count}} ألبوم",
-    "viewAllAlbums_other": "عرض {{count}} ألبوم",
+    "viewAllAlbums_few": "عرض {{count, number}} ألبومات",
+    "viewAllAlbums_many": "عرض {{count, number}} ألبوم",
+    "viewAllAlbums_other": "عرض {{count, number}} ألبوم",
     "viewAllPosts_zero": "لا يوجد منشورات",
     "viewAllPosts_one": "عرض منشور واحد",
     "viewAllPosts_two": "عرض منشورين",
-    "viewAllPosts_few": "عرض {{count}} منشورات",
-    "viewAllPosts_many": "عرض {{count}} منشور",
-    "viewAllPosts_other": "عرض {{count}} منشور"
+    "viewAllPosts_few": "عرض {{count, number}} منشورات",
+    "viewAllPosts_many": "عرض {{count, number}} منشور",
+    "viewAllPosts_other": "عرض {{count, number}} منشور"
   },
   "hotAlbums": {
     "title": "الألبومات الساخنة"
   },
   "trendingPosts": {
     "title": "المنشورات الرائجة"
+  },
+  "postTeaser": {
+    "authorAndDate": "بقلم {{author}} بتاريخ {{publishedAt, datetime}}"
   }
 }
