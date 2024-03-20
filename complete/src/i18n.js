@@ -3,16 +3,19 @@ import { initReactI18next } from "react-i18next";
 import HttpBackend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
+const supportedLngs = ["en", "ar"];
+const fallbackLng = "en";
+
 i18n
   .use(HttpBackend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: "en",
+    fallbackLng,
     interpolation: {
       escapeValue: false,
     },
     debug: true,
   });
 
-export default i18n;
+export { i18n, supportedLngs, fallbackLng };

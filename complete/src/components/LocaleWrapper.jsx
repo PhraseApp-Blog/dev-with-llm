@@ -6,25 +6,21 @@ import {
 } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import PropTypes from "prop-types";
+import { supportedLngs, fallbackLng } from "../i18n";
 
 const LocaleWrapper = () => {
   const { lang } = useParams();
-  console.log({ lang });
   const { i18n } = useTranslation();
 
   useEffect(() => {
-    // If there's a lang param and it's different from the current language, update it
     if (lang && i18n.language !== lang) {
-      const supportedLanguages = ["en", "ar"]; // Extend this list as needed
-      const fallbackLanguage = "en";
-      const newLang = supportedLanguages.includes(lang)
+      const newLang = supportedLngs.includes(lang)
         ? lang
-        : fallbackLanguage;
+        : fallbackLng;
       i18n.changeLanguage(newLang);
     }
   }, [lang, i18n]);
 
-  // Redirect to a default language route if no lang param is present
   if (!lang) {
     const detectedLang = i18n.language || "en";
     return <Navigate to={`/${detectedLang}`} replace />;
