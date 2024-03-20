@@ -3,7 +3,10 @@ import { initReactI18next } from "react-i18next";
 import HttpBackend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-const supportedLngs = ["en", "ar"];
+const supportedLngs = {
+  en: "English",
+  ar: "Arabic",
+};
 const fallbackLng = "en";
 
 i18n
