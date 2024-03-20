@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "狂喜之夜",
+    "artist": "DJ 脉冲",
+    "coverUrl": "https://picsum.photos/id/100/300/300",
+    "releaseDate": "2024-02-15"
+  },
+  {
+    "id": 2,
+    "title": "阴影中的低音",
+    "artist": "低音大师",
+    "coverUrl": "https://picsum.photos/id/101/300/300",
+    "releaseDate": "2024-03-01"
+  },
+  {
+    "id": 3,
+    "title": "合成波",
+    "artist": "合成小孩",
+    "coverUrl": "https://picsum.photos/id/102/300/300",
+    "releaseDate": "2024-01-20"
+  },
+  {
+    "id": 4,
+    "title": "电子脉冲",
+    "artist": "脉冲驱动",
+    "coverUrl": "https://picsum.photos/id/103/300/300",
+    "releaseDate": "2024-05-15"
+  },
+  {
+    "id": 5,
+    "title": "夜的节奏",
+    "artist": "夜行者",
+    "coverUrl": "https://picsum.photos/id/104/300/300",
+    "releaseDate": "2024-06-01"
+  },
+  {
+    "id": 6,
+    "title": "未来之声",
+    "artist": "未来声音",
+    "coverUrl": "https://picsum.photos/id/120/300/300",
+    "releaseDate": "2024-07-01"
+  },
+  {
+    "id": 7,
+    "title": "低音滴落",
+    "artist": "滴落大师",
+    "coverUrl": "https://picsum.photos/id/106/300/300",
+    "releaseDate": "2024-08-01"
+  },
+  {
+    "id": 8,
+    "title": "合成回声",
+    "artist": "回声小孩",
+    "coverUrl": "https://picsum.photos/id/107/300/300",
+    "releaseDate": "2024-09-01"
+  },
+  {
+    "id": 9,
+    "title": "数字梦想",
+    "artist": "梦编织者",
+    "coverUrl": "https://picsum.photos/id/108/300/300",
+    "releaseDate": "2024-10-01"
+  }
+]

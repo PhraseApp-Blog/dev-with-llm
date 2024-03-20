@@ -6,6 +6,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 const supportedLngs = {
   en: "English",
   ar: "Arabic",
+  zh: "Chinese",
 };
 const fallbackLng = "en";
 

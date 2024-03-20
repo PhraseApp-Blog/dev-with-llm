@@ -1,0 +1,26 @@
+{
+  "appName": "流浪者的塔可",
+  "loading": "加载中...",
+  "nav": {
+    "home": "首页",
+    "hotAlbums": "热门专辑",
+    "trendingPosts": "流行帖子"
+  },
+  "home": {
+    "hotAlbumsTitle": "热门专辑",
+    "trendingPostsTitle": "流行帖子",
+    "viewAllAlbums_one": "查看 {{count, number}} 张专辑",
+    "viewAllAlbums_other": "查看 {{count, number}} 张专辑",
+    "viewAllPosts_one": "查看 {{count, number}} 篇帖子",
+    "viewAllPosts_other": "查看 {{count, number}} 篇帖子"
+  },
+  "hotAlbums": {
+    "title": "热门专辑"
+  },
+  "trendingPosts": {
+    "title": "流行帖子"
+  },
+  "postTeaser": {
+    "authorAndDate": "由 {{author}} 发布于 {{publishedAt, datetime}}"
+  }
+}
