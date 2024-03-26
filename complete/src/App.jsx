@@ -11,6 +11,7 @@ import LocaleWrapper from "./components/LocaleWrapper";
 import RootRedirect from "./components/RootRedirect";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   const { i18n } = useTranslation();
@@ -42,6 +43,7 @@ const App = () => {
                 element={<TrendingPosts />}
               />
             </Route>
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
       </div>
